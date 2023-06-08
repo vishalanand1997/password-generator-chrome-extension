@@ -1,38 +1,37 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+body {}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.password__container {
+  margin-top: 20px;
+  width: 100%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+}
+
+.password_copText {
+  padding: 5px;
+  border: 1px dashed blueviolet;
+  border-top-left-radius: 15px;
+  background-color: blueviolet;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.password_copyIcon {
+  border-top: 1px dashed blue;
+  border-right: 1px dashed blue;
+  border-bottom: 1px dashed blue;
+  padding: 5px !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.password_copyStatus {
+  background-color: yellowgreen;
+  margin-left: 8px;
+  padding: 5px;
+  color: white;
+  border-radius: 15px;
+  font-size: 12px;
 }
